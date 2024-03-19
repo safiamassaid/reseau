@@ -1,0 +1,130 @@
+
+  
+  @keyframes float {
+    to {
+      transform: translateY(0.75em);
+    }
+  }
+  body, nav, a {
+    display: grid;
+  }
+  .id p{
+    margin-left: 0.6rem;
+    background-color: #1f4066;
+    padding:0REM 2REM 0REM 2REM;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+  }
+  .id img{
+margin-top: 0.2rem;
+  }
+  .boule{
+
+    background-color: green;
+    padding: 0.5rem;
+    border-radius: 50%;
+    margin-left: 35PX;
+    position: absolute;
+  }
+  h1{
+    display: flex;
+  
+    text-transform: uppercase;
+    color: #FFA944;
+  font-size: 2REM;
+   
+  padding-left: 1rem;
+  }
+  h1 span{
+    color: #F17007;
+  }
+
+  
+  nav {
+   display: flex;
+    place-self: center;
+
+    background: white;
+  justify-content: space-around;
+  height: 13vh;
+  }
+  
+  .item {
+    --hl: 0;
+    width: 5em;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  .item:focus {
+    outline: none;
+  }
+  .item:hover, .item:focus {
+    --hl: 1 ;
+  }
+  
+  .icon {
+    grid-area: 1/1;
+    place-self: center;
+    font-size: 2em;
+ 
+  }
+  
+  .mono {
+    z-index: 1;
+    transform: translate(calc(var(--hl)*.375em), calc(var(--hl)*-.25em)) rotate(calc(var(--hl)*22.5deg));
+    opacity: var(--hl);
+    filter: sepia(1) hue-rotate(calc(var(--hue) - 10deg)) saturate(9) blur(var(--r, 0));
+    transition: 0.3s;
+    
+  }
+  .mono[id*=blur] {
+    --r: 5px;
+    position: fixed;
+    bottom: 100vh;
+  }
+  
+  .midl {
+    z-index: 2;
+    color: transparent;
+    backdrop-filter: blur(5px);
+    -webkit-mask: linear-gradient(red 0 0) text;
+  }
+  
+  /* Check if the browser supports -moz-element */
+  @supports (background: -moz-element(#hl)) {
+    .midl {
+      background-color:#e8e0e0;
+      background-clip: text;
+      backdrop-filter: none;
+    }
+  }
+  
+  
+  .grey {
+    z-index: 3;
+    filter: grayscale(1) opacity(0.35);
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  .logo{
+    display: flex;
+      margin-top: -50PX;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+  .logo img{
+  display: flex;
+  margin-top: 40px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  
+  }

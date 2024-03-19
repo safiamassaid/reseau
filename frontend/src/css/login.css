@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body .tt {
+  background-color: rgb(255, 255, 255);
+  color: #1f3f65;
+  font-family: 'Muli', sans-serif;
+
+
+ 
+  margin: 0;
+}
+.succ{
+display: flex;
+justify-content: center;
+background-color: #00ae00c7;
+color: white;
+padding: 1rem;
+font-size:1.2rem;
+font-weight: bold;
+}
+.clas{
+  display: flex;
+  justify-content: space-around
+}
+.p{
+  display: flex;
+  justify-content: center;
+font-size: 1.5REM;
+}
+.tt{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%
+}
+
+.container {
+  width: 100%;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container a {
+  text-decoration: none;
+  color: #1f4066;
+  border-bottom: 1PX SOLID ;
+ 
+}
+
+.tt .btn {
+  cursor: pointer;
+  display: flex;
+  /*! width: 50%; */
+  background: #f9a31c;
+  padding: 15px 110PX;
+  font-family: inherit;
+  font-size: 16px;
+  border: 0;
+ color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  justify-content: center;
+}
+.tt .btn:focus {
+  outline: 0;
+}
+.tt .btn:active {
+  transform: scale(0.98);
+}
+
+.text {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.saf form{
+ 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  /*! padding: 90PX; */
+  width: 50%;
+  
+  padding: 60PX;
+}
+.inc{
+  width: 58%;
+}
+
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 301px;
+  
+}
+.saf{
+  margin-top: 3REM;
+  display: flex;
+  justify-content: center
+}
+
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #1c3c62 solid;
+
+
+  padding: 15px 0;
+  font-size: 18px;
+  color: #1e1919;
+  width:  100%;
+
+
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+  border-bottom-color: lightblue;
+}
+.tt .image{
+  width: 50%;
+  /*! padding: 50PX; */
+    
+  
+
+}
+.tt .image img{
+  width: 140%
+}
+
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  pointer-events: none;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+  color: #1f4066;
+  transform: translateY(-30px);
+}
+
+.logo{
+  display: flex;
+justify-content: center;
+  
+}
+.logo img{
+  width: 50PX;
+  height: 50PX;
+margin-top: 13PX;
+  
+}
+.logo h1{
+  display: flex;
+
+  text-transform: uppercase;
+  color: #FFA944;
+
+ 
+  height: 0REM;
+}
+.logo h1 span{
+  color: #F17007;
+}
+.bt{
+  display: flex;
+  justify-content: center;
+}

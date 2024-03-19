@@ -1,0 +1,455 @@
+.acc .vertical-section{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding-top: 2rem;
+ }
+
+ .acc .pub{
+
+  display: grid;
+  justify-content: center;
+width: 50%;
+
+
+
+
+  }
+  .acc .pab{
+    background-color: white;
+width: 100%;
+  }
+  .profil{
+    width: 25%;
+    padding: 1rem;
+
+  }
+  .ttpf{
+    background-color: white;
+    height: 29REM;
+
+  }
+  .notif{
+    width: 25%;
+    padding: 1rem;
+  }
+  .der{
+    background-color: white;
+    justify-content: center;
+    padding: 5px;
+  
+  }
+  .titre{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: #f17007;
+    color: white;
+    border-bottom: 1PX SOLID white ;
+    font-size: 1.3REM;
+  }
+  .notifi p{
+    display: flex;
+    padding-left: 0.5REM;
+    font-weight: 600;
+border-bottom: #1f4066;
+  }
+
+.photo{
+  display: grid;
+
+}
+.couv{
+  width: 100%;
+  height: 200PX;
+  position: relative;
+}
+.pr{
+  position: absolute;
+  width: 100PX;
+  height: 100PX;
+  border: 2PX solid white;
+  top: 42%;
+  left: 8.5%;
+  border-radius: 50%;
+}
+.bio{
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+margin-top: -10PX;
+}
+.usern{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 1.6REM;
+  color: #1f4066;
+  text-transform: uppercase;
+}
+.btn .bouton{
+  background-color: #f17007;
+  text-decoration: none;
+  color: white;
+  padding: 0.5REM 2rem;
+  border-radius: 0.5rem;
+}
+  .id{
+    display: flex;
+    color:#1f4066;
+    padding: 0.5rem 2REM;
+   
+  
+  }
+  .id h2{
+    border-bottom: 1PX SOLID #1f4066;
+    padding-left:0.5REM ;
+  }
+  .id img{
+    border-radius: 50%;
+  }
+  .awal{
+    padding-left: 1rem;
+    font-weight: 600;
+  }
+  .ida{
+    display: flex;
+    color:black;
+    padding: 0.5rem 1REM;
+    background-color: #f1700721;
+  
+  }
+  .btn{
+    display: flex;
+  width: 100%;
+  
+    justify-content: center;
+  }
+  .dawn{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  
+  }
+  
+
+  .logo{
+    display: flex;
+
+ 
+    
+  }
+  .logo img{
+    width: 40PX;
+    height: 40PX;
+  
+  }
+  
+  .acc .image img{
+  
+    width: 100%;
+    height: 330PX;
+  
+  }
+  ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2REM;
+    font-weight: bold;
+  
+  
+  
+  }
+  ul li{
+  
+    color: black;
+   
+  }
+   h1{
+    display: flex;
+  
+    text-transform: uppercase;
+    color: #FFA944;
+  font-size: 2REM;
+   
+    height: 3.5REM;
+  }
+  h1 span{
+    color: #F17007;
+  }
+  .menu{
+    padding: 50PX;
+  }
+  /* Styles spécifiques pour les différentes parties */
+  
+  li{
+  height: 4.1REM;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+  .notification,
+  .disconnect,
+  .home,
+  .friends {
+    margin-bottom: 10px;
+  }
+  
+  .menu  img{
+    width: 38PX;
+  
+  
+  }
+  .mot{
+    padding: 19PX;
+  }
+  .mot h2{
+    color: #f9a31c;
+    font-size: 2.2REM;
+    text-transform: uppercase;
+  
+  }
+  .mot p{
+    color:#1f4167;
+    font-size: 1.2REM;
+    font-weight: bold;
+    padding-top:1REM ;
+  }
+  .mot img{
+    padding-top:2REM ;
+  }
+  .love-button-container {
+    position: relative;
+    display: flex;
+  
+  }
+  
+  .love-button {
+    font-size: 16px;
+
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    height: 40PX;
+    width: 200PX;
+    background-color: white;
+    border: none;
+  }
+  
+  .explosion {
+    display: none;
+  position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url('../../pht/love\ \(2\).png'); /* Remplacez 'heart.png' par votre image de cœur */
+    background-size: cover;
+    pointer-events: none;
+    animation-name: explode;
+    animation-duration: 1s; /* Durée de l'animation */
+    animation-timing-function: ease-out; /* Courbe de timing de l'animation */
+    animation-fill-mode: forwards; /* L'élément conserve les styles de la dernière frame après l'animation */
+  }
+  
+  @keyframes explode {
+    0% {
+      transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(2.5);
+      opacity: 0;
+    }
+  }
+  
+  
+  /* ModalButton.css */
+  .modal-button-container {
+    text-align: center;
+  
+  }
+  .rou{
+     
+    display: flex; 
+     width: 66PX;
+  
+    
+    } 
+ .ac form .rou  input[type = "submit"]{
+    position: absolute;
+  height: 60PX;
+      width:54PX; 
+    opacity: 0;
+      cursor: pointer;
+      
+  }
+  .ac form input[type = "text"]{
+    width:300PX;
+    padding: 1REM;
+    border-radius: 1REM;
+    height: 3.5REM;
+    border: 1PX solid #1f4066;
+  }
+.acc  form{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+  }
+  .acf{
+    width: 100%;
+
+  }
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    animation: fadeIn 0.3s ease-out;
+  }
+  
+  .close {
+    position: relative;
+  display: grid;
+  justify-content: end;
+    cursor: pointer;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .navbar {
+      padding-top: .5em;
+      padding-bottom: .5em;
+      background-color: var(--primary);
+
+  }
+  
+  .sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+  }
+  
+  .hidden {
+      display: none;
+  }
+
+  
+  .nav__items {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+  }
+  
+  .nav__link {
+      color: var(--shades);
+      text-decoration: none;
+  }
+  
+  .brand {
+      margin: 0;
+      font-size: 1.45em;
+  }
+  
+  .brand a {
+      padding: 10px 15px;
+      text-align: center;
+      display: block;
+  }
+  
+  .logo {
+   
+      padding-top: .3125rem;
+
+  }
+  
+  
+  .nav__items {
+      margin-top: 5px;
+  
+  }
+  
+  .header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    color: #fff;
+    padding: 0 2rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.03);
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  width: 100%;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .navbar__menu {
+    position: relative;
+    display: flex;
+  }
+  ul{
+    list-style: none;
+  }
+  .navbar__link {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 10rem;
+    color: black;
+    transition: 250ms ease all;
+    text-decoration: none;
+    width: 10rem;
+    text-transform: uppercase;
+    transition: 500ms ease all;
+  }
+  .navbar__link svg {
+    transition: 500ms ease all;
+  }
+  .navbar__link:hover svg {
+    stroke: #C4151C;
+  }
+  .navbar:not(:hover) .navbar__link:focus span, .navbar__link:hover span {
+    opacity: 1;
+    transform: translate(0);
+  }
+  

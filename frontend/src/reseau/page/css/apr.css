@@ -1,0 +1,103 @@
+
+.logo{
+    display: flex;
+  justify-content: center;
+  
+    
+  }
+  .tet{
+    display: flex;
+    justify-content: center;
+  }
+  .logo img{
+    width: 50PX;
+    height: 50PX;
+  
+  }
+  .tout{
+    width: 100%;
+    display: grid;
+    height: 87vh;
+    background-color: white;
+  }
+  .tt{
+    display: flex;
+  }
+  .tout .une{
+    width: 45%;
+padding: 3REM;
+ color: black;
+    background-size: cover;
+  }
+
+  .tout .deux{
+    width: 55%;
+    background:url('../../pht/app.jpg');
+    background-size: cover;
+    border-radius: 200PX   0 0 200PX;
+  
+  }
+  p{
+    display: flex;
+    align-items: center;
+  
+    align-content: center;
+    font-weight: 600;
+    font-size: 17px;
+    padding-left: 5px;
+  
+  }
+  .une .bloc{
+    display: flex;
+  height: 80PX;
+    align-items: center;
+  
+    align-content: center;
+  }
+  :root {
+    --color-1: #1f4066;
+    --color-2: #2a9a9f;
+    --color-3:#f17007;
+    --color-4: #f17007dd;
+    --color-5: #f9dc00;
+  }
+.wrapper {
+    background: #ffffff;
+    line-height: 1;
+    width: 100%;
+    display: grid;
+    place-items: center;
+ 
+  }
+  
+  .wrapper h5 {
+    font-family: "Exo", sans-serif;
+    font-size: 3vw;
+    font-weight: 900;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    margin: auto;
+    text-transform: uppercase;
+    background: linear-gradient(219deg, 
+      var(--color-1) 19%, 
+      transparent 19%,transparent 20%, 
+      var(--color-2) 20%, var(--color-2)  39%,
+      transparent 39%,transparent 40%, 
+      var(--color-3) 40%,var(--color-3) 59% ,
+      transparent 59%,transparent 60%, 
+      var(--color-4) 60%, var(--color-4) 79%,
+      transparent 79%, transparent 80%, 
+      var(--color-5) 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  .contain {
+ 
+    text-align: center;
+ 
+  
+  }
+  
